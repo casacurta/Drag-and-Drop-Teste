@@ -4,10 +4,10 @@
         <style>
             #div1, #div2 {
                 float: left;
-                width: 100px;
-                height: 35px;
-                margin: 10px;
-                padding: 10px;
+                width:  100px;
+                height: 31px;
+                margin:  0px;
+                padding: 0px;
                 border: 1px solid black;
             }
         </style>
@@ -19,7 +19,8 @@
         <p>Drag the image back and forth between the two div elements.</p>
         
         <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-          <img src="img_w3slogo.gif" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+            <img src="image1.bmp" draggable="true" ondragstart="drag(event)" id="drag1" width="41" height="31">
+            <img src="image2.bmp" draggable="true" ondragstart="drag(event)" id="drag2" width="41" height="31">
         </div>
         
         <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
